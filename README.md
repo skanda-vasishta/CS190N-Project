@@ -13,8 +13,5 @@ Contributors: Skanda Vasishta, Viraj Zaveri, Sameer Rao, Garvin Young
   2. Run all training cells.
   3. Include filepath for testing data (```unseen_data = pd.read_csv("<filepath>.csv", sep="{")```)
   4. Run all testing cells and view subsequent results.
-  5. To do the same process for the Stanford Puffer dataset:
-     a) find data here: https://puffer.stanford.edu/data-description/
-     b) convert video_sent_X.csv file into pandas dataframe using pd.read_csv
-     c) replicate data cleaning from previous steps and make model prediction.
+  5. To do the same process for the Stanford Puffer dataset, find data here: https://puffer.stanford.edu/data-description/. Convert video_sent_X.csv file into pandas dataframe using ```pd.read_csv```. Replicate data cleaning from previous steps and make model prediction.
 
